@@ -1,4 +1,4 @@
-Quantity Analysis & Forecasting — Time Series Project
+Quantity Analysis & Forecasting-Time Series Project
 
 This repository contains an end-to-end time series analysis and forecasting workflow built to study and predict product sales quantities over time using Python.
 
@@ -6,7 +6,7 @@ Files included:
 
 Quantity_Analysis_TimeSeries_Structured.ipynb — A Jupyter notebook that walks through the full analytical pipeline: loading the raw sales data, aggregating daily quantities sold across products, performing seasonal decomposition (trend, weekly seasonality, and residuals) using statsmodels, and fitting an ARIMA model to forecast future demand. The notebook concludes with a train/test evaluation (RMSE, MAE, MAPE) and a plotted comparison of forecasted versus actual values, along with suggestions for future improvement (SARIMA, Prophet, LSTM).
 Raw_Data_Predictive_Analysis.xlsx — The source dataset, containing 40,563 rows and 9 columns of transactional-level sales data. Key fields include OrderDate, ParentProductIdNew, ParentProductNew, ProductCategoryNew, ArtistNameNew, total_qty_sales, Selling Price, productListViews, and productListClicks. Each row represents an order for a specific product on a given date, making it suitable for both time series aggregation and product-level predictive analysis.
-requirements.txt — Lists all Python dependencies needed to run the notebook, including pandas, numpy, matplotlib, seaborn, statsmodels, scikit-learn, openpyxl, and jupyter.
+requirements.txt - Lists all Python dependencies needed to run the notebook, including pandas, numpy, matplotlib, seaborn, statsmodels, scikit-learn, openpyxl, and jupyter.
 
 Project workflow:
 
