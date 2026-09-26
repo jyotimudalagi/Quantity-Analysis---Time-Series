@@ -20,3 +20,29 @@ Evaluate model performance using standard error metrics and visualize forecasted
 Use case: This project is useful for e-commerce or retail businesses looking to understand demand patterns and build a baseline forecasting model for inventory planning, sales trend analysis, or business decision support.
 
 Note: Before running the notebook, ensure the Excel file path matches your local directory structure, and install dependencies via pip install -r requirements.txt.
+
+## Objective
+Analyze and forecast **quantity trends** over time using time series analysis techniques.
+
+## Dataset Overview
+The dataset contains timestamped records of quantities sold or produced.
+
+## Workflow
+1. Load the data
+2. Explore time-based patterns
+3. Resample and smooth
+4. Train a forecasting model
+5. Visualize predictions
+
+## Exploratory Data Analysis
+
+## Decomposition
+
+## Modeling with ARIMA
+
+## Evaluation and Visualization   
+
+## Conclusion
+- Time series modeling was applied to understand and forecast quantity trends.
+- ARIMA provided a simple baseline.
+- For improvement, consider SARIMA, Prophet, or LSTM for long-term patterns.
